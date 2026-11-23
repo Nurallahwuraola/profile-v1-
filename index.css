@@ -90,10 +90,25 @@ box-shadow: hwb(0 26% 25%);
 background-color:whitesmoke;
   }
 
+.project-container{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+background:whitesmoke;
+  
+  }
 
-
-
-
+.project-container1 {
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  justify-content: center;
+  text-align: center ;
+  }
 
 about{
 align-items: center ;
