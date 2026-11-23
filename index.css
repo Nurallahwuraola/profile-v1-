@@ -204,6 +204,29 @@ background-color: #0fbcf9;
 background-color: transparent;
   color: #0fbcf9;
   }
+
+.stack-boxes  {
+  justify-content: space-between;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 12);
+  margin-bottom: 20px;
+  }
+.stack-box{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1.5rem;
+  gap: 20px;
+  }
+.stack{
+border: none;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);min-width: 6rem;
+padding:5px;
+  gap: 20px;
+  }
+
 .section{
 display: flex;
   justify-content: center;
